@@ -1,18 +1,52 @@
 html {
-    cursor: url('cursor.png'), auto;
-    --dot-bg: #D1E5F4;
-    --dot-color: #2C272B;
-    --dot-size: 0.15rem;
-    --dot-space: 4rem;
-    background:
-        linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-        linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-        var(--dot-color);
+  cursor: url("cursor.png"), auto;
 }
+
+body {
+  background-color: #eeeeff;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom 1rem center;
+  background-attachment: fixed;
+  margin: 0rem;
+}
+
+main {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 h1 {
-    color: #2C272B;
-    font-family: Verdana;
-    font-size: 4rem;
-    margin-left: 30rem;
-    margin-top: 4rem;
+  color: #2c272b;
+  font-family: Verdana;
+  font-size: 4rem;
+  display: inline-block;
+  margin-left: 28.7rem;
+  margin-top: 4rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: #7076a9;
+  padding: 0rem;
+  margin: 0rem 29.5rem 0rem 29.5rem;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: #2c272b;
+  font-family: Verdana;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #585e93;
+}
+
+.navbar li {
+  float: left;
 }

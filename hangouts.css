@@ -1,0 +1,27 @@
+h1 {
+  display: inline-block;
+  margin-top: 4rem;
+}
+
+.notepage {
+  display: block;
+  margin: auto;
+  margin-top: -2rem;
+}
+
+.plan1 {
+  color: #2c272b;
+  font-family: Verdana;
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+.plans {
+  margin-left: 30rem;
+  margin-top: -37.5rem;
+}
+
+.infopage {
+  display: none;
+  margin: 0rem 0rem 0rem 70rem;
+}
