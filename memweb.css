@@ -1,0 +1,56 @@
+html {
+  cursor: url("cursor.png"), auto;
+}
+
+body {
+  background-color: #11110f;
+  background-image: url(background.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: bottom 5rem center;
+  background-attachment: fixed;
+  margin: 0rem;
+}
+
+main {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.draggable {
+  position: absolute;
+  cursor: url("cursor.png"), auto;
+  padding: 8px;
+}
+
+#tokyoTicket {
+  position: absolute; /* allows manual placement */
+  left: 25rem;        /* X position from the left */
+  top: 46.875rem;         /* Y position from the top */
+  transform: rotate(-10deg);
+}
+
+#icoca {
+  position: absolute; /* allows manual placement */
+  left: 40.625rem;        /* X position from the left */
+  top: 56.25rem;         /* Y position from the top */
+  transform: rotate(-5deg);
+}
+
+#polaroid {
+  position: absolute; /* allows manual placement */
+  left: 93.75rem;       /* X position from the left */
+  top: 31.25rem;         /* Y position from the top */
+}
+
+#snowFairy {
+  position: absolute; /* allows manual placement */
+  left: 93.75rem;       /* X position from the left */
+  top: -6.25rem;         /* Y position from the top */
+  transform: rotate(-25deg);
+}
